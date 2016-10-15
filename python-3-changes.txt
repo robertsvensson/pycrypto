@@ -5,7 +5,7 @@ setup.py invokes 2to3 automatically. This handles int/long and print issues,
 setup.py will touch nt.py on win32 after build and build again. This is
  necessary so 2to3 can do its magic on that file.
 
-There are still a lot of places in the code that need manual attention even
+Yes! There are still a lot of places in the code that need manual attention even
  with 2to3. They mostly have to do with string (2.x) vs. byte/unicode (3.x)
  representation
 
